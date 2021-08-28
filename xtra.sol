@@ -465,7 +465,7 @@ contract XTRAToken is Context, IERC20, Ownable {
     address public  uniswapV2Pair;
     
     bool inSwapAndLiquify;
-    bool public swapAndLiquifyEnabled = true;
+    bool public swapAndLiquifyEnabled = false;
 
     uint256 private numTokensSellToAddToLiquidity = 5000 * 10**18;
     
